@@ -1,18 +1,16 @@
 package question2;
-interface createDefault{
-    default void showInfo(){
+interface create{
+    default void showDefault(){
         System.out.println("Default Method of an interface created");
     }
-}
-interface createStatic{
-    static void showInfo(){
+    static void showStatic(){
         System.out.println("Static Method of an interface created");
     }
 }
 public class question2 {
     public static void main(String[] args) {
-        createDefault cd = new createDefault(){};
-        cd.showInfo();
-        createStatic.showInfo();
+        create c = new create(){};
+        c.showDefault();
+        create.showStatic();
     }
 }
