@@ -26,7 +26,7 @@ class Employee{
         this.designation=d;
     }
 }
-public class question5 {
+public class Question5 {
     public static void main(String[] args){
         Employee e=new Employee("Pranshu","Saluja",22,"Trainee");
         e.setAge(26);
