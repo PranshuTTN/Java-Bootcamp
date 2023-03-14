@@ -5,7 +5,7 @@ import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
 
-public class question1 {
+public class Question1 {
     public static void main(String[] args) {
         Consumer<String> showInfo = x -> System.out.println(x);
         showInfo.accept("Consumer interface implementation using lambdas.");

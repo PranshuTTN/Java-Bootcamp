@@ -4,7 +4,7 @@ import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
 
-public class question6_Q2 {
+public class Question6_Q2 {
     public static void main(String[] args) {
         LocalDateTime localDateAndTime = LocalDateTime.now();
         ZoneId zoneId1 = ZoneId.of("Asia/Singapore");

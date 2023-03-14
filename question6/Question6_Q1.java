@@ -3,7 +3,7 @@ package question6;
 import java.time.LocalDate;
 import java.util.Scanner;
 
-public class question6_Q1 {
+public class Question6_Q1 {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         System.out.println("Enter the day(1-31) of first date: ");

@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 
-public class question4 {
+public class Question4 {
     public static void main(String[] args) {
         List<Integer> list = Arrays.asList(1,12,23,34,45,56,67,78,89,90);
         Optional<Integer> op = list.stream()

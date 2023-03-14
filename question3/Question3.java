@@ -3,7 +3,7 @@ package question3;
 import java.util.Arrays;
 import java.util.List;
 
-public class question3 {
+public class Question3 {
     public static void main(String[] args) {
         List<Integer> list = Arrays.asList(3,5,21,6,32,43,1,4);
         int result = (list.stream()

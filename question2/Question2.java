@@ -1,5 +1,5 @@
 package question2;
-interface create{
+interface Create {
     default void showDefault(){
         System.out.println("Default Method of an interface created");
     }
@@ -7,10 +7,10 @@ interface create{
         System.out.println("Static Method of an interface created");
     }
 }
-public class question2 {
+public class Question2 {
     public static void main(String[] args) {
-        create c = new create(){};
+        Create c = new Create(){};
         c.showDefault();
-        create.showStatic();
+        Create.showStatic();
     }
 }
