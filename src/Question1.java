@@ -1,4 +1,4 @@
-public class question1 {
+public class Question1 {
     static String firstName="Rocky";
     static String lastName="Sharma";
     static int age=32;
