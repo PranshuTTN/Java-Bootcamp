@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
-class sortingSalary implements Comparator<Employeee>{
+class SortingSalary implements Comparator<Employeee>{
     public int compare(Employeee e1,Employeee e2){
         if(e1.salary== e2.salary){
             return 0;
