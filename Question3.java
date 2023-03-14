@@ -4,7 +4,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class question3 {
+public class Question3 {
     public static void main(String[] args){
         Scanner sc =new Scanner(System.in);
         System.out.println("Enter the file location:");

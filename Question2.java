@@ -3,7 +3,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class question2 {
+public class Question2 {
     public static void main(String[] args){
         Scanner scn = new Scanner(System.in);
         while(true){
@@ -15,7 +15,7 @@ public class question2 {
             int a = scn.nextInt();
             System.out.println("Enter phone number: ");
             long p = scn.nextLong();
-            user s = new user(fn,ln,a,p);
+            User s = new User(fn,ln,a,p);
             try{
                 BufferedWriter bw=new BufferedWriter(new FileWriter("details.txt",true));
                 bw.write(s.toString());
@@ -35,11 +35,11 @@ public class question2 {
 
     }
 }
-class user{
+class User {
     private String firstName,lastName;
     private int age;
     private long phoneNumber;
-    user(String firstName,String lastName,int age,long phoneNumber){
+    User(String firstName, String lastName, int age, long phoneNumber){
         this.firstName=firstName;
         this.lastName=lastName;
         this.age=age;
