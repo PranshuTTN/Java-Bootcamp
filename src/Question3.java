@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class question3 {
+public class Question3 {
     double pi = 3.14;
     public static void area(double radius){
         double ar=3.14*radius*radius;
