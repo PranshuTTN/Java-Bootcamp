@@ -19,7 +19,7 @@ class B{
         System.out.println("Product is "+(n1*n2));
     }
 }
-public class question2 {
+public class Question2 {
     public static void main(String[] args) {
         Addition a = new B()::add;
         a.add(12,45);

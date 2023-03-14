@@ -1,24 +1,24 @@
-interface worldcup{
+interface Worldcup {
     default void myBody(){
         System.out.println("Default is called by world cup");
     }
 }
-interface argentina extends worldcup {
+interface Argentina extends Worldcup {
     default void myBody(){
         System.out.println("Default is called by argentina" );
     }
 }
-interface brazil extends worldcup{
+interface Brazil extends Worldcup {
     default void myBody(){
         System.out.println("Default is called by brazil");
     }
 }
-public class question3 implements argentina,brazil{
+public class Question3 implements Argentina, Brazil {
     public void myBody(){
         System.out.println("Class method is called");
     }
     public static void main(String[] args) {
-        question3 q = new question3();
+        Question3 q = new Question3();
         q.myBody();
     }
 }

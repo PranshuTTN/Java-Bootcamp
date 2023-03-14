@@ -1,5 +1,3 @@
-import java.util.Locale;
-
 interface First{
     boolean greatest(int n1,int n2);
 }
@@ -12,7 +10,7 @@ interface Third {
 interface Fourth{
     String convertToString(String s3);
 }
-    public class question1 {
+    public class Question1 {
     public static void main(String[] args) {
         First fi = (n1,n2) -> {return n1>n2;};
         System.out.println("Output 1: "+fi.greatest(5,2));
