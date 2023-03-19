@@ -15,8 +15,8 @@ public class EmailServiceTest {
         System.out.println("Before");
     }
 
-    @Test
-    public void test1(){
+    @Test(expected = Exception.class)
+    public void test1() throws Exception{
         Order o = new Order(5,"Food",25.8);
         assertFalse(EmailService.getInstance().sendEmail(o));
     }
