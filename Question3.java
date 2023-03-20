@@ -1,14 +1,14 @@
-interface Worldcup {
+interface WorldCup {
     default void myBody(){
         System.out.println("Default is called by world cup");
     }
 }
-interface Argentina extends Worldcup {
+interface Argentina extends WorldCup {
     default void myBody(){
         System.out.println("Default is called by argentina" );
     }
 }
-interface Brazil extends Worldcup {
+interface Brazil extends WorldCup {
     default void myBody(){
         System.out.println("Default is called by brazil");
     }
