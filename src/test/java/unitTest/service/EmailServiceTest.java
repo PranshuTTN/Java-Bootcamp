@@ -3,7 +3,8 @@ package unitTest.service;
 import org.junit.*;
 import unitTest.domain.Order;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
 public class EmailServiceTest {
     @BeforeClass
@@ -18,7 +19,7 @@ public class EmailServiceTest {
     @Test(expected = Exception.class)
     public void test1() throws Exception{
         Order o = new Order(5,"Food",25.8);
-        assertFalse(EmailService.getInstance().sendEmail(o));
+        EmailService.getInstance().sendEmail(o);
     }
     @Test
     public void test2(){
